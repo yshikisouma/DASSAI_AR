@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,10 @@
 		A8B4EB6E254F8F12005D342E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8B4EB6C254F8F12005D342E /* Main.storyboard */; };
 		A8B4EB70254F8F13005D342E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8B4EB6F254F8F13005D342E /* Assets.xcassets */; };
 		A8B4EB73254F8F13005D342E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8B4EB71254F8F13005D342E /* LaunchScreen.storyboard */; };
+		A8B4EB7C254F9277005D342E /* QRScannerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B4EB7B254F9277005D342E /* QRScannerController.swift */; };
+		A8B4EB7F254F94DD005D342E /* MeetingRoomInformationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B4EB7E254F94DD005D342E /* MeetingRoomInformationController.swift */; };
+		A8EF9D92254FEE2A0091EF38 /* MeetingStutsForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EF9D91254FEE2A0091EF38 /* MeetingStutsForm.swift */; };
+		A8F92F6B254FD6E700DB7E60 /* meetingMenberInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F92F6A254FD6E700DB7E60 /* meetingMenberInformation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		A8B4EB6F254F8F13005D342E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8B4EB72254F8F13005D342E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8B4EB74254F8F13005D342E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8B4EB7B254F9277005D342E /* QRScannerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerController.swift; sourceTree = "<group>"; };
+		A8B4EB7E254F94DD005D342E /* MeetingRoomInformationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingRoomInformationController.swift; sourceTree = "<group>"; };
+		A8EF9D91254FEE2A0091EF38 /* MeetingStutsForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingStutsForm.swift; sourceTree = "<group>"; };
+		A8F92F6A254FD6E700DB7E60 /* meetingMenberInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meetingMenberInformation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +69,11 @@
 				A8B4EB6A254F8F12005D342E /* ViewController.swift */,
 				A8B4EB6C254F8F12005D342E /* Main.storyboard */,
 				A8B4EB6F254F8F13005D342E /* Assets.xcassets */,
+				A8B4EB7B254F9277005D342E /* QRScannerController.swift */,
+				A8B4EB7E254F94DD005D342E /* MeetingRoomInformationController.swift */,
+				A8F92F6A254FD6E700DB7E60 /* meetingMenberInformation.swift */,
 				A8B4EB71254F8F13005D342E /* LaunchScreen.storyboard */,
+				A8EF9D91254FEE2A0091EF38 /* MeetingStutsForm.swift */,
 				A8B4EB74254F8F13005D342E /* Info.plist */,
 			);
 			path = DASSAI_AR;
@@ -102,7 +114,7 @@
 				};
 			};
 			buildConfigurationList = A8B4EB5E254F8F12005D342E /* Build configuration list for PBXProject "DASSAI_AR" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -138,8 +150,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8B4EB6B254F8F12005D342E /* ViewController.swift in Sources */,
+				A8EF9D92254FEE2A0091EF38 /* MeetingStutsForm.swift in Sources */,
+				A8B4EB7F254F94DD005D342E /* MeetingRoomInformationController.swift in Sources */,
+				A8B4EB7C254F9277005D342E /* QRScannerController.swift in Sources */,
 				A8B4EB67254F8F12005D342E /* AppDelegate.swift in Sources */,
 				A8B4EB69254F8F12005D342E /* SceneDelegate.swift in Sources */,
+				A8F92F6B254FD6E700DB7E60 /* meetingMenberInformation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +303,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 474PP9UHKC;
 				INFOPLIST_FILE = DASSAI_AR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,6 +322,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 474PP9UHKC;
 				INFOPLIST_FILE = DASSAI_AR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
